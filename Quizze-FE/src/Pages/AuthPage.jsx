@@ -24,7 +24,7 @@ const Auth = () => {
   return (
     <>
       <div className='authbox'>
-            <h1 className='title' onClick={clickHandle}>QUIZZIE</h1>
+            <h1 className='title'>QUIZZIE</h1>
             <div className='authtabs'>
                 <div onClick={showSignup} className={`authbutton ${wp&&"selected"}`}>
                   Sign Up

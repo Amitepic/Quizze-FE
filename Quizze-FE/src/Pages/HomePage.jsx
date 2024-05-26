@@ -22,7 +22,7 @@ export default function (){
         <div className='home'>
            
             <Sidebar changeSelected={changeSelected } selected={selected}/>
-            <div>
+            <div className="homeright">
                 {selected === 0 && <DashboardPage />}
                 {selected === 1 && <AnalyticsPage />}
                 {selected === 2 && <CreateQuzie />}
